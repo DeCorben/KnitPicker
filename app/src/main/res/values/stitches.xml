@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="stitches">
+		<item>k</item>
+		<item>ktbl</item>
+		<item>p</item>
+		<item>ptbl</item>
+		<item>kfb</item>
+		<item>m1l</item>
+		<item>m1r</item>
+		<item>k2tog</item>
+		<item>ssk</item>
+		<item>p2tog</item>
+		<item>p2tbl</item>
+		<item>sl</item>
+		<item>slk</item>
+		<item>w and t</item>
+		<item>kll</item>
+		<item>klr</item>
+		<item>CO</item>
+		<item>pm</item>
+		<item>sm</item>
+		<item>rm</item>
+	</string-array>
+</resources>

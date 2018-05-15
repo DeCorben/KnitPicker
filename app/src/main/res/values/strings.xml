@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KnitPicker</string>
+	<string name="db_title">Stitch Database</string>
+	<string name="maintain_title">Edit Stitch</string>
+	<string name="maker_title">Edit Pattern</string>
+	<string name="pattern_name">Pattern Name</string>
+    <string name="row">Next Row</string>
+	<string name="row_name">Row</string>
+	<string name="section_name">Section</string>
+	<string name="sts">Sts:</string>
+</resources>
