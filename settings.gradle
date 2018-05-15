@@ -1,0 +1,4 @@
+include ':app', ':manatb'
+project(':manatb').projectDir = file('../ManateeBase/manatb')
+include ':lagoon'
+project(':lagoon').projectDir = file('../ManateeBase/lagoon')
