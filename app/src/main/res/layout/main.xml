@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	>
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2"
+		>
+		<Spinner android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:layout_toLeftOf="@+id/rowPick"
+			android:id="@+id/select"
+			android:padding="5dp"
+		/>
+		<NumberPicker android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:id="@id/rowPick"
+			android:padding="5dp"
+			/>
+		<LinearLayout android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/select"
+			android:layout_alignParentLeft="true"
+			android:layout_toLeftOf="@id/rowPick"
+			>
+			<TextView android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:id="@+id/row"
+				android:padding="5dp"
+				android:gravity="center"
+				android:textSize="25sp"
+				/>
+			<TextView android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:id="@+id/section"
+				android:padding="5dp"
+				android:gravity="center"
+				android:textSize="20sp"
+				/>
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:text="@string/sts"
+			/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:id="@+id/stsBox"
+			/>
+	</LinearLayout>
+	<TextView android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="4"
+		android:id="@+id/pattern"
+		android:padding="5dp"
+		android:gravity="center"
+		android:textSize="40sp"
+		/>
+	<Button android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="4"
+		android:text="@string/row"
+		android:id="@+id/tap"
+		android:onClick="tapClick"
+		android:padding="5dp"
+		android:gravity="center"
+		android:textSize="50sp"
+		/>
+</LinearLayout>
